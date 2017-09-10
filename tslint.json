@@ -1,0 +1,30 @@
+{
+    "extends": [
+        "tslint-immutable"
+    ],
+    "rules": {
+        "readonly-keyword": [
+            true,
+            "ignore-local",
+            {
+                "ignore-prefix": "mutable"
+            }
+        ],
+        "readonly-array": [
+            true,
+            "ignore-local",
+            {
+                "ignore-prefix": "mutable"
+            }
+        ],
+        "no-let": [
+            true,
+            "ignore-local",
+            {
+                "ignore-prefix": "mutable"
+            }
+        ],
+        // "no-let": true
+        // "no-object-mutation": true
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tslint-immutable-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.7.0",
+    "tslint-immutable": "^4.1.0",
+    "typescript": "^2.5.2"
+  }
+}
