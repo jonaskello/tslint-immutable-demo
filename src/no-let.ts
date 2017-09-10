@@ -1,4 +1,4 @@
-let x = 5; // Not allowed because of no-let rule
+// let x = 5; // Not allowed because of no-let rule
 
-let mutableX = 5;
+// let mutableX = 5;
 

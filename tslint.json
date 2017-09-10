@@ -17,14 +17,7 @@
                 "ignore-prefix": "mutable"
             }
         ],
-        "no-let": [
-            true,
-            "ignore-local",
-            {
-                "ignore-prefix": "mutable"
-            }
-        ],
-        // "no-let": true
+        "no-let": true
         // "no-object-mutation": true
     }
 }
